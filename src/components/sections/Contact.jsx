@@ -30,7 +30,7 @@ const Contact = () => {
         setDrafting(true);
 
         setTimeout(() => {
-            setDraftResult(`Hi Ahmed, regarding ${draftTopic}: I noticed your background in ML and Web. Your availability in Oct 2025 aligns with our timeline. Let's discuss collaboration.`);
+            setDraftResult(`Hi Ahmed, regarding ${draftTopic}: I noticed your background in Flutter Mern & AI. Your availability in 24/7 that aligns with our timeline. Let's discuss collaboration.`);
             setDrafting(false);
         }, 1500);
     };
@@ -56,7 +56,7 @@ const Contact = () => {
                             <ol className="space-y-3 text-sm text-gray-400 list-decimal list-inside">
                                 <li>Enter an industry (e.g., "Space Travel").</li>
                                 <li>Gemini analyzes my resume.</li>
-                                <li>It invents a valid ML+Web project idea.</li>
+                                <li>It invents a valid Flutter Web AI project idea.</li>
                             </ol>
                         </div>
                     </div>
