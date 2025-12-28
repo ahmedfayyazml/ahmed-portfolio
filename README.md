@@ -1,16 +1,86 @@
-# React + Vite
+# Ahmed Portfolio - Dark Matter Edition
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-end, interactive portfolio website featuring a "Dark Matter" aesthetic. Built with modern web technologies to deliver a visually stunning and immersive user experience.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Dark Matter Aesthetic**: Unique, space-inspired design with deep aesthetics.
+- **Interactive UI**: Smooth scrolling, hover effects, and micro-interactions.
+- **Advanced Animations**: Powered by Framer Motion for fluid transitions.
+- **Responsive Design**: Fully responsive layout for all devices.
+- **Dynamic Content**: Showcasing projects, skills, and experience.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **[React](https://react.dev/)**: Frontend library for building user interfaces.
+- **[Vite](https://vitejs.dev/)**: Next Generation Frontend Tooling.
+- **[Tailwind CSS](https://tailwindcss.com/)**: A utility-first CSS framework.
+- **[Framer Motion](https://www.framer.com/motion/)**: Production-ready motion library for React.
+- **[Lenis](https://lenis.darkroom.engineering/)**: Smooth scrolling library.
+- **[Chart.js](https://www.chartjs.org/)**: Simple yet flexible JavaScript charting for designers & developers.
+- **[Lucide React](https://lucide.dev/)**: Beautiful & consistent icons.
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these steps to set up the project locally.
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+1.  **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/ahmedfayyazml/ahmed-portfolio.git
+    cd ahmed-portfolio
+    ```
+
+2.  **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+3.  **Start the development server:**
+
+    ```bash
+    npm run dev
+    ```
+
+    The application will be available at `http://localhost:5173`.
+
+## 📜 Scripts
+
+- `npm run dev`: Starts the development server.
+- `npm run build`: Builds the app for production to the `dist` folder.
+- `npm run lint`: Runs ESLint to check for code quality issues.
+- `npm run preview`: Locally preview the production build.
+- `npm run deploy`: Deploys the `dist` folder to GitHub Pages.
+
+## 📂 Project Structure
+
+```
+ahmed-portfolio/
+├── public/              # Static assets
+├── src/
+│   ├── assets/          # Images and other source assets
+│   ├── components/      # Reusable UI components
+│   │   ├── sections/    # Page sections (Home, About, Projects, etc.)
+│   │   └── ui/          # Basic UI elements (Buttons, Navbar, etc.)
+│   ├── data/            # Static data files
+│   ├── styles/          # various css files
+│   ├── App.jsx          # Main application component
+│   ├── main.jsx         # Entry point
+│   └── index.css        # Global styles and Tailwind imports
+├── .eslintrc.cjs        # ESLint configuration
+├── postcss.config.js    # PostCSS configuration
+├── tailwind.config.js   # Tailwind CSS configuration
+└── vite.config.js       # Vite configuration
+```
+
+## 📄 License
+
+This project is licensed under the MIT License.
