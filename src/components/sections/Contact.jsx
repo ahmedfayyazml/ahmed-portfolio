@@ -171,7 +171,7 @@ const Contact = () => {
                     </div>
 
                     <div className="mt-20 pt-8 border-t border-white/5 flex justify-between text-xs text-gray-600 uppercase tracking-widest">
-                        <p>&copy; 2025 Ahmed Fayyaz</p>
+                        <p>&copy; 2026 Ahmed Fayyaz</p>
                         <p>Designed in Dark Matter</p>
                     </div>
                 </div>
